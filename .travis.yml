@@ -1,4 +1,9 @@
 language: python
+python:
+  - "3.10"
+
+services:
+  - docker
 
 before_script: pip install docker-compose
 
